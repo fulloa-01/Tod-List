@@ -1,0 +1,34 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+
+.FlexContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 65%;
+
+    height: 80vh;
+    overflow: auto;
+    flex-direction: column;
+}
+
+.FlexContainer div {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+
+}
+
+ul {
+    list-style-type: none;
+}
